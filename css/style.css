@@ -1766,3 +1766,40 @@ h3.tittle:after, h3.tittle:before {
 	}
 }
 
+.experince-container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.experince-images {
+	flex-direction: column;
+}
+
+.experince-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-top: 2%;
+}
+
+.company-name {
+  color: #10A7AF;
+	margin-left: 5%;
+}
+
+.work-description{
+	margin-left: 10%;
+	margin-right: 5%;
+}
+
+.experince-dates { 
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: space-between;
+	padding-top: 2%;
+}
+
+.experince-date {
+	margin-bottom: 50%;
+}
